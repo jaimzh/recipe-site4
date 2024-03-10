@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Outfit:wght@100..900&family=Poppins:wght@500&family=Style+Script&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 20px;
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+    line-height: 35px;
+    border-radius: 10px;
+    transform: scale(0.8);
+}
+
+p{
+    font-size:  16px;
+    color:hsl(30, 10%, 34%);
+}
+img{
+    height: 300px;
+    border-radius: 20px;
+}
+.image-container{
+ text-align: center;
+}
+
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color:hsl(24, 5%, 18%);
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size:30px;
+    margin-bottom: 10px; 
+    margin-top: 7px;
+    color: hsl(14, 45%, 36%); 
+}
+
+h4{
+    color:  hsl(332, 51%, 32%);
+    font-size:20px;
+}
+.prep-time{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prep-time .dot-list{
+    list-style-type: disc; 
+    color: hsl(332, 51%, 32%);
+    
+}
+.dot-list p{
+    display: inline-block;
+}
+span{
+    font-weight: bold;
+
+    color:hsl(30, 10%, 34%);
+}
+.ingridients{
+    margin-bottom: 20px;
+}
+ol{
+    margin-bottom: 30px;
+    padding:0px 30px ;
+    Color: hsl(14, 45%, 36%); 
+    
+}
+
+
+
+.numbered-list li p{
+    display: inline;
+}
+.line{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.dot-list{
+    list-style-type: disc;
+      
+}
+
+
+
+.numbered-list{
+    list-style-type: decimal;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+}
+
+.grid-item, .brown-numbers{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.brown-numbers{
+    Color: hsl(14, 45%, 36%); 
+    font-weight: bold;
+}
